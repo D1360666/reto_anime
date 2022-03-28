@@ -1,7 +1,8 @@
 import React from 'react'
 
-export default function Header() {
+function Header() {
   return (
-    <header>Bienvenidos Reto Anime</header>
+    <header>Bienvenidos <strong>Reto</strong> Anime</header>
   )
 }
+export default Header
